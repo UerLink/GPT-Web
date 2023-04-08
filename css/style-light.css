@@ -170,7 +170,7 @@
 
         .messages {
             font-size: 16px;
-            color: #343541;
+            color: #24ba1e;
             text-align: center;
         }
 
@@ -198,10 +198,12 @@
 
         .response .markdown-body {
             background: #f7f7f8 !important;
+            color:#010101;
         }
 
         #chatlog .markdown-body>pre {
             overflow-x: auto;
+            color:#010101;
             padding: 10px;
             position: relative;
             background: rgba(180, 180, 180, 0.1);
