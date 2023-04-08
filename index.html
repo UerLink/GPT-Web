@@ -8,7 +8,13 @@
     <meta charset="utf-8">
     <title>UERLINK-GPT</title>
     <link rel="shortcut icon" href="image/index.ico"/>
-    <link rel="stylesheet" type="text/css" href="css/style-dark.css">
+
+
+    
+    <link rel="stylesheet" type="text/css" href="css/style-light.css" id="link1">
+    <link rel="stylesheet" type="text/css" href="css/style-dark.css" id="link2">
+
+    <script type="text/javascript" src="js/toggleStyle.js"></script>
 </head>
 
 <body>
@@ -173,6 +179,31 @@
                 <div class="button maximize"></div>
             </div>
             <div class="title"></div>
+
+
+            <button id="toggleStyle" onclick="toggleStyleSheet()">
+                <svg viewBox="0 0 100 100" style="display:block;" role="img" width="30" height="30">
+                    <title>切换深浅模式</title>
+                    <image id="image0" width="90" height="90" x="0" y="0" fill="#fffff"
+                        href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAQAAACROWYpAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+                        AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAJcEhZ
+                        cwAACxMAAAsTAQCanBgAAAAHdElNRQfnBAgGJxg6hVk0AAACBUlEQVQ4y7XUMWgTcRTH8e+7JE3R
+                        qU2tWtpFTSdxdRNCoxEiGAiURhEH4SQJuLi1k2C7OajYawoOGYKUYqlCpa2xilMXXZwaMlldHBoX
+                        00jbPIc0d4mk8W7wt/3///tw773hwf+KOWAOdHuXDiTgH9MEUR2WIOhvtimyXN+Y3/sXlvQ405y1
+                        z58YYhAfaFmncovokfhOf88C0dYbSyDdR1xvylXQdZmwKh3x3bC8kXPthVj2e+ZS/alc0JIRny03
+                        7wznr8bK37Q1sx93L1KQUV1zhtjE0rNAuPvs8zXrFi85YxSa9R7i9Hh7r0dEj93WL3Ilk2zBZkAf
+                        uqDAo196D3TGDNjYP9at2/bkPrBG2BexsSbcUgAtgF53enbTr529Fa3L5SYWHfaCn+/wgxEEDDBD
+                        EvSCQb7Tm+0HAwLqjTbqrdfBgGc71DziId21Ko2eVb95kdmQnmC7OTAoesEH18SQtzY2XnkaVwp4
+                        beP9d1p2S9MRYloa3LDx/J5OuaP3j/MEmHyw7/RMblHX3VRczXNeV+eWGkf/4bXKhG7KaPe/VvMk
+                        2QqmmpvM3iRWxYhrqVuv1U2SbB3EH/+0C2n7oI8XxFpvLIFsqB7nBjHQ1WDKoR1WbyapM85C0s9y
+                        Wk+KAVpicm6py+ptxAz4IiSIMkIvUNOvFHX51PvGhF0nG8qGPAEv+QNz1aK4Ew2nUwAAACV0RVh0
+                        ZGF0ZTpjcmVhdGUAMjAyMy0wNC0wOFQwNjozOToyNCswMDowMNzn6GcAAAAldEVYdGRhdGU6bW9k
+                        aWZ5ADIwMjMtMDQtMDhUMDY6Mzk6MjQrMDA6MDCtulDbAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAy
+                        MDIzLTA0LTA4VDA2OjM5OjI0KzAwOjAw+q9xBAAAAABJRU5ErkJggg==" ></image>
+                </svg>
+            </button>
+
+
             <button id="setting">
                 <svg viewBox="0 0 100 100" style="display:block;" role="img" width="30" height="30">
                     <title>设置</title>

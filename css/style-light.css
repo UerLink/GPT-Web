@@ -473,6 +473,25 @@
             background: #b0b0b0 !important;
         }
 
+        #toggleStyle {
+            position: absolute;
+            right: 55px;
+            top: 5px;
+            cursor: pointer;
+            padding: 5px;
+            border: none;
+            background-color: transparent;
+            border-radius: 4px;
+        }
+
+        #toggleStyle:hover {
+            background: #e7e7e8;
+        }
+
+        .showtoggleStyleg {
+            background: #b0b0b0 !important;
+        }
+
         #setDialog {
             color: #303030;
             position: absolute;
