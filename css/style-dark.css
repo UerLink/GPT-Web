@@ -19,7 +19,7 @@
         .chat_window {
             position: absolute;
             width: 100%;
-            max-width: 100%;
+            max-width: 1100px;
             height: 100%;
             max-height: 1000px;
             border-radius: 8px;
