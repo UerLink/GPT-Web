@@ -63,17 +63,17 @@
 
         .top_menu .toggler .button.close {
             top: 8px;
-            background-color: #99c959;
+            background-color: #696969;
         }
 
         .top_menu .toggler .button.minimize {
             top: 18px;
-            background-color: #f8b26a;
+            background-color: #696969;
         }
 
         .top_menu .toggler .button.maximize {
             top: 28px;
-            background-color: #e15b64;
+            background-color: #696969;
         }
 
         .top_menu .title {
@@ -341,7 +341,7 @@
             font-size: 18px;
             font-weight: bold;
             border-radius: 3px;
-            background-color: #b8da8b;
+            background-color: #5fa04a;
             border: none;
             padding: 0;
             color: #fff;
