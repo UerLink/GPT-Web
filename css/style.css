@@ -26,6 +26,7 @@
             --lighter-svg-color: #c0c0c0;
             --code-color: #f0f0f0;
             --black-color: #000;
+            --markdown-color: #24292f;
         }
 
         [data-theme="dark"] {
@@ -45,6 +46,7 @@
             --lighter-svg-color: #3f3f3f;
             --code-color: #101010;
             --black-color: #fff;
+            --markdown-color: #c9d1d9;
         }
 
         body {
@@ -187,17 +189,17 @@
 
         .top_menu .toggler .button.close {
             margin-top: 3px;
-            background-color: #99c959;
+            background-color: #8f8f8f;
         }
 
         .top_menu .toggler .button.minimize {
             margin-top: 13px;
-            background-color: #f8b26a;
+            background-color: #8f8f8f;
         }
 
         .top_menu .toggler .button.maximize {
             margin-top: 23px;
-            background-color: #e15b64;
+            background-color: #8f8f8f;
         }
 
         .top_menu .title {
@@ -331,6 +333,7 @@
 
         .response .markdown-body {
             background: var(--response-color) !important;
+            color: var(--markdown-color);
         }
 
         #chatlog .markdown-body>pre {
@@ -405,7 +408,7 @@
             text-align: center;
             line-height: 32px;
             color: white;
-            background: #f8b26a;
+            background: #f7c38f;
             cursor: pointer;
             border-radius: 3px;
             position: sticky;
