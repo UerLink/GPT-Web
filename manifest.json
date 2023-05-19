@@ -1,0 +1,15 @@
+{
+  "name": "AILink",
+  "short_name": "AILink",
+  "description": "简洁AI的问答应用",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#edeff2",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    }
+  ]
+}
