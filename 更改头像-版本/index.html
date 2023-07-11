@@ -1771,7 +1771,7 @@
         const formatMdEle = (ele) => {
             let avatar = document.createElement("div");
             avatar.className = "chatAvatar";
-            avatar.innerHTML = ele.className === "request" ? `<img src="${userAvatar}" />` : `<svg width="30" height="30"><use xlink:href="image/aiicon.svg#aiIcon"></use></svg>`;
+            avatar.innerHTML = ele.className === "request" ? `<img src="${userAvatar}" />` : `<svg width="30" height="30"><use xlink:href="image/Abigail_Icon.svg#aiIcon"></use></svg>`;
             ele.appendChild(avatar);
             let realMd = document.createElement("div");
             realMd.className = ele.className === "request" ? "requestBody" : "markdown-body";
@@ -2594,7 +2594,7 @@
                 })
             }
             let localAvatar = localStorage.getItem("userAvatar");
-            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "image/avatar.png";
+            userAvatar = setAvatarPre.src = setAvatar.value = localAvatar || setAvatar.getAttribute("value") || "image/The_Player_Icon.png";
             setAvatar.onchange = () => {
                 userAvatar = setAvatar.value;
                 localStorage.setItem("userAvatar", userAvatar);
