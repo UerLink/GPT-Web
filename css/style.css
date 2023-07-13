@@ -10,6 +10,16 @@
             height: 100%;
         }
 
+        .scaled-svg {
+            width: 22px;
+            height: 22px;
+         }
+
+         .scaled-svg use {
+            width: 100%;
+            height: 100%;
+         }
+
         :root {
             --background: #edeff2;
             --chat-back: #fff;
@@ -302,7 +312,7 @@
         }
 
         .response>.chatAvatar {
-            background: #10a37f;
+            background: #10a37e00;
             top: 18px;
         }
 
@@ -315,8 +325,8 @@
 
         .chatAvatar>svg {
             display: block;
-            margin-top: 4px;
-            margin-left: 4px;
+            margin-top: 0px;
+            margin-left: 0px;
         }
 
         #chatlog .request {
